@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven 'loalMaven'
+        maven 'localMaven'
     }
     stages {
         stage('Checkout') {
